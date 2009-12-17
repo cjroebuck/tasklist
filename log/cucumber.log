@@ -1,0 +1,11 @@
+# Logfile created on Tue Dec 15 23:37:13 +0000 2009  [4;36;1mTask Create (0.5ms)[0m   [0;1mINSERT INTO "tasks" ("created_at", "updated_at", "description") VALUES('2009-12-16 00:10:41', '2009-12-16 00:10:41', 'task 1')[0m
+  [4;36;1mTask Create (0.7ms)[0m   [0;1mINSERT INTO "tasks" ("created_at", "updated_at", "description") VALUES('2009-12-16 00:12:33', '2009-12-16 00:12:33', 'task 1')[0m
+  [4;36;1mTask Create (0.5ms)[0m   [0;1mINSERT INTO "tasks" ("created_at", "updated_at", "description") VALUES('2009-12-16 00:14:54', '2009-12-16 00:14:54', 'task 1')[0m
+REQUESTING PAGE: GET /tasks with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-12-16 00:14:54) [GET]
+  [4;35;1mTask Load (0.3ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 22ms (View: 19, DB: 1) | 200 OK [http://www.example.com/tasks]

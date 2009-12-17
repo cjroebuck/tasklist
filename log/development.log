@@ -1,0 +1,479 @@
+  [4;36;1mSQL (19.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (10.2ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (1.3ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (14.0ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (16.2ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (2.2ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (1.2ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (2.2ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (1.2ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (1.8ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (1.3ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (2.3ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (1.1ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (14.3ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (1.8ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (3.2ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (17.1ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateTasks (20091215235415)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCREATE TABLE "tasks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "description" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091215235415')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("tasks")[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (3.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (4.3ms)[0m   [0;1mCREATE TABLE "tasks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "description" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (1.2ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20091215235415')[0m
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2009-12-16 00:16:46) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Completed in 62ms (View: 2, DB: 1) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-12-16 00:16:55) [GET]
+  [4;36;1mTask Load (0.4ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 43ms (View: 35, DB: 0) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2009-12-16 00:18:12) [GET]
+Rendering template within layouts/tasks
+Rendering tasks/new
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/tasks/new]
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-12-16 00:18:18) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"U+VDjTSkd92zI9BUP0a/bPotbPh3QrV2Z0p2TwY220M=", "task"=>{"description"=>"task 1"}}
+  [4;35;1mTask Create (0.5ms)[0m   [0mINSERT INTO "tasks" ("created_at", "updated_at", "description") VALUES('2009-12-16 00:18:18', '2009-12-16 00:18:18', 'task 1')[0m
+Redirected to http://localhost:3000/tasks/1
+Completed in 12ms (DB: 0) | 302 Found [http://localhost/tasks]
+
+
+Processing TasksController#show (for 127.0.0.1 at 2009-12-16 00:18:18) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mTask Load (0.3ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 1) [0m
+Rendering template within layouts/tasks
+Rendering tasks/show
+Completed in 16ms (View: 6, DB: 0) | 200 OK [http://localhost/tasks/1]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-12-16 00:18:19) [GET]
+  [4;35;1mTask Load (0.5ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#show (for 127.0.0.1 at 2009-12-16 00:18:23) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mTask Load (0.2ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 1) [0m
+Rendering template within layouts/tasks
+Rendering tasks/show
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/tasks/1]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-12-16 00:18:24) [GET]
+  [4;35;1mTask Load (0.6ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2009-12-16 00:18:26) [GET]
+Rendering template within layouts/tasks
+Rendering tasks/new
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/tasks/new]
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-12-16 00:18:30) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"U+VDjTSkd92zI9BUP0a/bPotbPh3QrV2Z0p2TwY220M=", "task"=>{"description"=>"task 2"}}
+  [4;36;1mTask Create (0.5ms)[0m   [0;1mINSERT INTO "tasks" ("created_at", "updated_at", "description") VALUES('2009-12-16 00:18:30', '2009-12-16 00:18:30', 'task 2')[0m
+Redirected to http://localhost:3000/tasks/2
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/tasks]
+
+
+Processing TasksController#show (for 127.0.0.1 at 2009-12-16 00:18:30) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mTask Load (0.4ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 2) [0m
+Rendering template within layouts/tasks
+Rendering tasks/show
+Completed in 14ms (View: 5, DB: 0) | 200 OK [http://localhost/tasks/2]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-12-16 00:18:32) [GET]
+  [4;36;1mTask Load (0.6ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 80ms (View: 9, DB: 1) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#destroy (for 127.0.0.1 at 2009-12-16 00:18:37) [DELETE]
+  Parameters: {"authenticity_token"=>"U+VDjTSkd92zI9BUP0a/bPotbPh3QrV2Z0p2TwY220M=", "id"=>"1"}
+  [4;35;1mTask Load (0.3ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 1) [0m
+  [4;36;1mTask Destroy (0.4ms)[0m   [0;1mDELETE FROM "tasks" WHERE "id" = 1[0m
+Redirected to http://localhost:3000/tasks
+Completed in 27ms (DB: 1) | 302 Found [http://localhost/tasks/1]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-12-16 00:18:37) [GET]
+  [4;35;1mTask Load (0.5ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2009-12-16 00:18:39) [GET]
+Rendering template within layouts/tasks
+Rendering tasks/new
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/tasks/new]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-12-16 00:35:08) [GET]
+  [4;36;1mTask Load (0.8ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 35ms (View: 30, DB: 1) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#show (for 127.0.0.1 at 2009-12-16 00:36:35) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mTask Load (0.3ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 2) [0m
+Rendering template within layouts/tasks
+Rendering tasks/show
+Completed in 28ms (View: 22, DB: 0) | 200 OK [http://localhost/tasks/2]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-12-16 00:36:38) [GET]
+  [4;35;1mTask Load (0.4ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2009-12-16 00:36:41) [GET]
+Rendering template within layouts/tasks
+Rendering tasks/new
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/tasks/new]
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-12-16 00:36:59) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"eKsXax/8YZwv1oLkjT0M5QvpGYd4yAxY3X780C8aLb0=", "task"=>{"description"=>"Wrap kishore present!!"}}
+  [4;36;1mTask Create (0.6ms)[0m   [0;1mINSERT INTO "tasks" ("created_at", "updated_at", "description") VALUES('2009-12-16 00:36:59', '2009-12-16 00:36:59', 'Wrap kishore present!!')[0m
+Redirected to http://localhost:3000/tasks/3
+Completed in 9ms (DB: 1) | 302 Found [http://localhost/tasks]
+
+
+Processing TasksController#show (for 127.0.0.1 at 2009-12-16 00:36:59) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mTask Load (0.2ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 3) [0m
+Rendering template within layouts/tasks
+Rendering tasks/show
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/tasks/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-16 22:17:06) [GET]
+
+ActionController::RoutingError (No route matches "/taasks" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-12-16 22:17:11) [GET]
+  [4;36;1mTask Load (0.5ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2009-12-16 22:17:15) [GET]
+Rendering template within layouts/tasks
+Rendering tasks/new
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/tasks/new]
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-12-16 22:17:20) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"eKsXax/8YZwv1oLkjT0M5QvpGYd4yAxY3X780C8aLb0=", "task"=>{"description"=>"test task"}}
+  [4;35;1mTask Create (0.4ms)[0m   [0mINSERT INTO "tasks" ("created_at", "updated_at", "description") VALUES('2009-12-16 22:17:20', '2009-12-16 22:17:20', 'test task')[0m
+Redirected to http://localhost:3000/tasks/4
+Completed in 403ms (DB: 0) | 302 Found [http://localhost/tasks]
+
+
+Processing TasksController#show (for 127.0.0.1 at 2009-12-16 22:17:20) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mTask Load (0.2ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 4) [0m
+Rendering template within layouts/tasks
+Rendering tasks/show
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/tasks/4]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-12-16 22:17:23) [GET]
+  [4;35;1mTask Load (0.5ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 15ms (View: 10, DB: 1) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#edit (for 127.0.0.1 at 2009-12-16 22:17:26) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mTask Load (0.2ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 4) [0m
+Rendering template within layouts/tasks
+Rendering tasks/edit
+Completed in 42ms (View: 38, DB: 0) | 200 OK [http://localhost/tasks/4/edit]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-12-16 22:17:28) [GET]
+  [4;35;1mTask Load (0.6ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 15ms (View: 10, DB: 1) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#show (for 127.0.0.1 at 2009-12-16 22:17:31) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mTask Load (0.2ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 4) [0m
+Rendering template within layouts/tasks
+Rendering tasks/show
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/tasks/4]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-12-16 22:17:32) [GET]
+  [4;35;1mTask Load (0.5ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 15ms (View: 10, DB: 1) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#show (for 127.0.0.1 at 2009-12-16 22:30:13) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mTask Load (0.2ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 3) [0m
+Rendering template within layouts/tasks
+Rendering tasks/show
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/tasks/3]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-12-16 22:30:16) [GET]
+  [4;35;1mTask Load (0.5ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-12-16 22:36:58) [GET]
+  [4;36;1mTask Load (0.6ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 70ms (View: 66, DB: 1) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2009-12-16 22:37:00) [GET]
+Rendering template within layouts/tasks
+Rendering tasks/new
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/tasks/new]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2009-12-16 22:37:02) [GET]
+Rendering template within layouts/tasks
+Rendering tasks/new
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/tasks/new]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2009-12-16 22:37:03) [GET]
+Rendering template within layouts/tasks
+Rendering tasks/new
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/tasks/new]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2009-12-16 22:37:03) [GET]
+Rendering template within layouts/tasks
+Rendering tasks/new
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/tasks/new]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2009-12-16 22:37:03) [GET]
+Rendering template within layouts/tasks
+Rendering tasks/new
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://localhost/tasks/new]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2009-12-16 22:37:03) [GET]
+Rendering template within layouts/tasks
+Rendering tasks/new
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/tasks/new]
