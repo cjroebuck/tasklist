@@ -1,7 +1,13 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-
 one:
-  description: MyString
+  name: MyString
+  description: MyText
+  finish_by: 2009-12-17
+  category_id: 
+  priority_id: 
 
 two:
-  description: MyString
+  name: MyString
+  description: MyText
+  finish_by: 2009-12-17
+  category_id: 
+  priority_id: 

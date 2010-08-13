@@ -1,20 +1,25 @@
-<h1>Listing tasks</h1>
+<% title "Tasks" %>
 
 <table>
   <tr>
+    <th>Name</th>
     <th>Description</th>
+    <th>Finish By</th>
+    <th>Category</th>
+    <th>Priority</th>
   </tr>
-
-<% @tasks.each do |task| %>
-  <tr>
-    <td><%=h task.description %></td>
-    <td><%= link_to 'Show', task %></td>
-    <td><%= link_to 'Edit', edit_task_path(task) %></td>
-    <td><%= link_to 'Destroy', task, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
-<% end %>
+  <% for task in @tasks %>
+    <tr>
+      <td><%=h task.name %></td>
+      <td><%=h task.description %></td>
+      <td><%=h task.finish_by %></td>
+      <td><%=h task.categories.collect {|c| c.name}.join(', ') %></td>
+      <td><%=h task.priority.name %></td>
+      <td><%= link_to "Show", task %></td>
+      <td><%= link_to "Edit", edit_task_path(task) %></td>
+      <td><%= link_to "Destroy", task, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
 </table>
 
-<br />
-
-<%= link_to 'New task', new_task_path %>
+<p><%= link_to "New Task", new_task_path %></p>

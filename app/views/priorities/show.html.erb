@@ -1,0 +1,25 @@
+<% title "Priority" %>
+
+<p>
+  <strong>Name:</strong>
+  <%=h @priority.name %>
+</p>
+<p>
+  <strong>Description:</strong>
+  <%=h @priority.description %>
+</p>
+
+<p>
+  <strong>Tasks:</strong>
+  <% if @priority.tasks.length > 0 %>
+  	<%= @priority.tasks.collect{|t| link_to t.name, t}.join(', ') %>
+  <% else %>
+	No Tasks in this priority
+  <% end%> 
+</p>
+
+<p>
+  <%= link_to "Edit", edit_priority_path(@priority) %> |
+  <%= link_to "Destroy", @priority, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", priorities_path %>
+</p>

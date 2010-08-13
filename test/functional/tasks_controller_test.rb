@@ -1,45 +1,54 @@
 require 'test_helper'
 
 class TasksControllerTest < ActionController::TestCase
-  test "should get index" do
+  def test_index
     get :index
-    assert_response :success
-    assert_not_nil assigns(:tasks)
+    assert_template 'index'
   end
-
-  test "should get new" do
+  
+  def test_show
+    get :show, :id => Task.first
+    assert_template 'show'
+  end
+  
+  def test_new
     get :new
-    assert_response :success
+    assert_template 'new'
   end
-
-  test "should create task" do
-    assert_difference('Task.count') do
-      post :create, :task => { }
-    end
-
-    assert_redirected_to task_path(assigns(:task))
+  
+  def test_create_invalid
+    Task.any_instance.stubs(:valid?).returns(false)
+    post :create
+    assert_template 'new'
   end
-
-  test "should show task" do
-    get :show, :id => tasks(:one).to_param
-    assert_response :success
+  
+  def test_create_valid
+    Task.any_instance.stubs(:valid?).returns(true)
+    post :create
+    assert_redirected_to task_url(assigns(:task))
   end
-
-  test "should get edit" do
-    get :edit, :id => tasks(:one).to_param
-    assert_response :success
+  
+  def test_edit
+    get :edit, :id => Task.first
+    assert_template 'edit'
   end
-
-  test "should update task" do
-    put :update, :id => tasks(:one).to_param, :task => { }
-    assert_redirected_to task_path(assigns(:task))
+  
+  def test_update_invalid
+    Task.any_instance.stubs(:valid?).returns(false)
+    put :update, :id => Task.first
+    assert_template 'edit'
   end
-
-  test "should destroy task" do
-    assert_difference('Task.count', -1) do
-      delete :destroy, :id => tasks(:one).to_param
-    end
-
-    assert_redirected_to tasks_path
+  
+  def test_update_valid
+    Task.any_instance.stubs(:valid?).returns(true)
+    put :update, :id => Task.first
+    assert_redirected_to task_url(assigns(:task))
+  end
+  
+  def test_destroy
+    task = Task.first
+    delete :destroy, :id => task
+    assert_redirected_to tasks_url
+    assert !Task.exists?(task.id)
   end
 end

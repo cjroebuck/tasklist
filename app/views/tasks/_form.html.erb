@@ -1,0 +1,10 @@
+<% semantic_form_for @task do |f| %>
+	<%	f.inputs do %>
+		<%= f.input :name %>
+		<%= f.input :description %>
+		<%= f.input :finish_by %>
+		<%= f.input :categories, :as => :check_boxes, :required => false %>
+		<%= f.input :priority, :include_blank => false %>
+	<% end %>
+	<%= f.buttons %>
+<% end %>

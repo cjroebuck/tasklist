@@ -1,15 +1,5 @@
-<h1>New task</h1>
+<% title "New Task" %>
 
-<% form_for(@task) do |f| %>
-  <%= f.error_messages %>
+<%= render :partial => 'form' %>
 
-  <p>
-    <%= f.label :description %><br />
-    <%= f.text_field :description %>
-  </p>
-  <p>
-    <%= f.submit 'Create' %>
-  </p>
-<% end %>
-
-<%= link_to 'Back', tasks_path %>
+<p><%= link_to "Back to List", tasks_path %></p>
